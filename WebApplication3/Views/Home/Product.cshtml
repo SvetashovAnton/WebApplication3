@@ -1,0 +1,182 @@
+﻿<link href="~/css/bootstrap.css" rel="stylesheet">
+<link href="~/css/font-awesome.css" rel="stylesheet">
+<link href="~/css/custom.css" rel="stylesheet">
+<link href="~/css/animate.css" rel="stylesheet">
+<link href="~/css/style.css" rel="stylesheet">
+<link href="~/css/select2.min.css" rel="stylesheet" />
+<div style="margin-top:20px">
+    <div class="form-group">
+        <label class="control-label">Наименование</label>
+        <div style="width:400px" class="block margintop"><input type="text" class="form-control"></div>
+        <label class="control-label">Код</label>
+        <div style="width:100px" class="block margintop"><input type="text" class="form-control"></div>
+        <label class="control-label">Артикул</label>
+        <div style="width:100px" class="block margintop"><input type="text" class="form-control"></div>
+        <label class="control-label">Порядковый номер блока</label>
+        <div style="width:100px" class="block margintop"><input type="text" class="form-control"></div>
+        <div style="width:150px; height:50px; display:inline-block" class="margintop">
+            <select class="input-sm form-control input-s-sm inline" style="display:inline-block; height: 40px; width:90%">
+                <option value="0">Каталог</option>
+                <option value="1">Option 2</option>
+                <option value="2">Option 3</option>
+                <option value="3">Option 4</option>
+            </select>
+        </div>
+        <div style="width:150px; height:50px; display:inline-block" class="margintop">
+            <select class="input-sm form-control input-s-sm inline" style="display:inline-block; height: 40px; width:90%">
+                <option value="0">Раздел</option>
+                <option value="1">Option 2</option>
+                <option value="2">Option 3</option>
+                <option value="3">Option 4</option>
+            </select>
+        </div>
+        <div style="width:150px; height:50px; display:inline-block" class="margintop">
+            <select class="input-sm form-control input-s-sm inline" style="display:inline-block; height: 40px;width:90%">
+                <option value="0">Подраздел</option>
+                <option value="1">Option 2</option>
+                <option value="2">Option 3</option>
+                <option value="3">Option 4</option>
+            </select>
+        </div>
+        <div style="width:150px; height:50px; display:inline-block" class="margintop">
+            <select class="input-sm form-control input-s-sm inline" style="display:inline-block; height: 40px; width:90%">
+                <option value="0">Значок</option>
+                <option value="1">Option 2</option>
+                <option value="2">Option 3</option>
+                <option value="3">Option 4</option>
+            </select>
+        </div>
+        <div style="width:150px; height:50px; display:inline-block" class="margintop">
+            <select class="input-sm form-control input-s-sm inline" style="display:inline-block; height: 40px; width:90%">
+                <option value="0">Серия</option>
+                <option value="1">Option 2</option>
+                <option value="2">Option 3</option>
+                <option value="3">Option 4</option>
+            </select>
+        </div>
+        <div style="width:180px; height:50px; display:inline-block" class="margintop">
+            <select class="input-sm form-control input-s-sm inline" style="display:inline-block; height: 40px; width:90%">
+                <option value="0">Торговая марка</option>
+                <option value="1">Option 2</option>
+                <option value="2">Option 3</option>
+                <option value="3">Option 4</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <p>
+                Select2 is a jQuery based replacement for select boxes. It can take a regular select box and turn it into:
+            </p>
+            <select class="select2_demo_1 form-control">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+                <option value="5">Option 5</option>
+            </select>
+        </div>
+        <div class="margintop">
+            <label style="margin-left:15px"> <input type="checkbox" class="i-checks"> Не выводить в каталог </label>
+            <label style="margin-left:15px"> <input type="checkbox" class="i-checks"> Набор </label>
+            <label style="margin-left:15px"> <input type="checkbox" class="i-checks"> Проверено </label>
+            <label style="margin-left:15px"> <input type="checkbox" class="i-checks"> Фото проверено </label>
+        </div>
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Hover Table  </h5>
+            </div>
+            <div class="ibox-content">
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Тип фото</th>
+                            <th>Путь к фото</th>
+                            <th>Фото</th>
+                        </tr>
+                    </thead>
+                    <tbody style="vertical-align:central">
+                        <tr>
+                            <td>1</td>
+                            <td>Основное фото</td>
+                            <td>//...</td>
+                            <td class="text-navy"> <img src="~/images/30233.gif"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Фото упаковки</td>
+                            <td>//...</td>
+                            <td class="text-warning"> <img src="~/images/30233.gif"> </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><span class="pie">Чертеж</span></td>
+                            <td>//...</td>
+                            <td class="text-navy"> <img src="~/images/30233.gif"> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Hover Table  </h5>
+            </div>
+            <div class="ibox-content">
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Пометка</th>
+                            <th>Фото</th>
+                            <th>Наименование</th>
+                        </tr>
+                    </thead>
+                    <tbody style="vertical-align:central">
+                        <tr>
+                            <td><input type="checkbox" class="i-checks" /></td>
+                            <td><img src="~/images/30233.gif"></td>
+                            <td class="text-navy">...</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="i-checks" /></td>
+                            <td><img src="~/images/30233.gif"></td>
+                            <td class="text-warning">...</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="i-checks" /></td>
+                            <td><img src="~/images/30233.gif"></td>
+                            <td class="text-navy">...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/jquery-2.1.1.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
+<script src="~/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="~/js/jquery.slimscroll.min.js"></script>
+<script src="~/js//jquery.jeditable.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="~/js/inspinia.js"></script>
+<script src="~/js/pace.min.js"></script>
+<script src="~/js/jquery.dataTables.js"></script>
+<script src="~/js/dataTables.bootstrap.js"></script>
+<script src="~/js/dataTables.responsive.js"></script>
+<script src="~/js/dataTables.tableTools.min.js"></script>
+<script src="~/js/select2.full.min.js"></script>
+<!-- iCheck -->
+<script src="~/js/iCheck/icheck.min.js"></script>
+<script>
+    $(".select2_demo_1").select2();
+    $(".select2_demo_2").select2();
+    $(".select2_demo_3").select2({
+        placeholder: "Select a state",
+        allowClear: true
+    });
+</script>
+
+87.228.103.170
